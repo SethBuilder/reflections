@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    by pulling up the parts the are not similar
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    in case I run into an error I can restore an older working version and then compare how is it different from the current one
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    Once you are sure about that a logical change took place then you can commit, this makes you double check everything before you commit.
+    Also, it makes you want to commit when you decide that the change is substantial enough.
+
+    Cons:
+    it might be bit long for someone to commit which makes the process slower
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because some files depend on each other. For ex: html page that depends on JS file. So, once the developer is comfortable with all the changes and all of them work fine together, then he can commit.
+    For Google they keep track of each file seperately, it detects a change on the page and thus saves it automatically. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use git log to view previous commits and once I found what I want I can press q to quit and use git diff to view difference 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    if it doesn't work, I can checkout an older version and branch out again or I can rectify the mistake in the current head after applying git diff which will tell me what code was changed.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    projects for full-stack developper
