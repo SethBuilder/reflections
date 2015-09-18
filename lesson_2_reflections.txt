@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+the hidden git file .git starts to track commits made on the files
