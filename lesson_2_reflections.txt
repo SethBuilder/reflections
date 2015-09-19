@@ -14,3 +14,8 @@ How do the diagrams help you visualize the branch structure?
 
 by telling me the flow of commits and what would show on git log and also help me identify lost commits 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+then we can introduce new features and merge the work of two people or more
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+git automatic merge is really fast however when two people edit the same part its better to do it manually
