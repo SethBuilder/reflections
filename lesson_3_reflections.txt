@@ -6,12 +6,16 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    I might prefer to keep a clear idea of what my local repository looks like and what it does. afterthat I might check the github repo and also understand how it's different and if it includes any problems or bugs I don't want on my computer. once I decide to sync the two. that is especially truw when there're several contributers to github repo and I'm not sure what they did yet so syncing their work might mess up my local repo.
+    I might prefer to keep a clear idea of what my local repository looks like and what it does. after that I might check the github repo and also understand how it's different and if it includes any problems or bugs I don't want on my computer. then I decide to sync the two. that is especially true when there're several contributers to github repo and I'm not sure what they did yet so syncing their work might mess up my local repo.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    branches: that is when I want to take a copy of the files and do something with them that won't affect the prod environment, so all the work stays on my local machine.
+
+    clones: it lets you copy a repo from github to your computer, you can edit it as you want, then you can push changes back to github if you have permission.
+
+    forks: it lets you copy a repo from github into your own github account, you can then clone it into your computer and push and pull changes as you please.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
@@ -35,6 +39,9 @@ Commands:
 git remote add origin URL--> to create a remote and assign a a github link
 git remote --> to know what remotes are there
 git push origin branch-name --> to push commits to github
+git pull origin branch-name  --> to pull changes from github to local
+fork (on github) makes a new copy of a github repo on my github account so I can edit it - also credit is given to original repo. it also makes it easy to suggest changes to origianl github repo
+git clone HTTPS clone URL (from github) | this command clones the repo I forked into my github account into my local computer
 git remote -v | shows URL to pull from and URL to push into
 
 
