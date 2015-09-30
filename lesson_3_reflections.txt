@@ -30,7 +30,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    the idea is to keep master branch in sync with the online brnach and then you can apply your work by first merging local master to your branch and then work on that branch and push it to a branch connected to the github master.
+
+    making changes on a seperate branch: your work doesn't break master if it's buggy. instead you apply your work and once other people view it and agree its a good idea it is merged to github master. also you get to test it locally as your local branch contains master updates, so it is tested locally then other people view it and merge it.
+
+    making changes to master: this takes less work and makes sense if there're few people working on a project and they are so in harmony and good at what htey do that they trust each other.
 
 
 
