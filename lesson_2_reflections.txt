@@ -34,6 +34,7 @@ git checkout -b new_branch_name  |    Creates a new branch and do a checkout on 
 git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
 git branch -d name  |    Remove the branch with the specified name
 git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
+git branch new-branch-name | creates new branch
 
 credit for commands description:
 https://github.com/Denyos/reflections
