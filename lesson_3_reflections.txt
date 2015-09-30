@@ -11,7 +11,7 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    branches: that is when I want to take a copy of the files and do something with them that won't affect the prod environment, so all the work stays on my local machine.
+    branches: that is when I want to take a copy of the files and do something with them that won't affect the prod environment, so all the work stays on my local machine or github depending on where're I'm working
 
     clones: it lets you copy a repo from github to your computer, you can edit it as you want, then you can push changes back to github if you have permission.
 
@@ -20,7 +20,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    I didn't completely understand this part but I think to know what last part was in sync with the github repo
+    I didn't completely understand this part but I think to know what was last part that was in sync with the github repo
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
@@ -31,6 +31,8 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+
+this change is for PULLL REQUESTTTT-----
 
 
 
@@ -43,6 +45,7 @@ git pull origin branch-name  --> to pull changes from github to local
 fork (on github) makes a new copy of a github repo on my github account so I can edit it - also credit is given to original repo. it also makes it easy to suggest changes to origianl github repo
 git clone HTTPS clone URL (from github) | this command clones the repo I forked into my github account into my local computer
 git remote -v | shows URL to pull from and URL to push into
+git fetch origin | pulls origin master branch and stores it as a different branch on local machine, we can later merge origin/master with local master
 
 
 Notes:
